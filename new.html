@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Don't Know</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  <!--Style-->
+  <style>
+  	body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #ff9d00;
+  }
+  #about h1{
+  	font-family: 'Ubuntu', sans-serif;
+  	color: black;
+  }
+  .jumbotron h1{
+  	font-family: 'Pacifico', cursive;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #ff9d00;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: black !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #ff9d00 !important;
+      background-color: black !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: black !important;
+  }
+  .jumbotron {
+      background-color: #ff9d00;
+      color: black;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+#mycarousel h1
+{
+margin-top: 20%;
+margin-left:5%;
+font-family: 'Fredoka One', cursive;
+color:white;
+font-size: 50px;
+text-align: center;
+}
+.submit {background-color: black;
+	color: white; 
+	padding: 14px 30px;
+	text-decoration : none;
+	border-radius : 7px 7px 7px 7px;
+	}
+.submit:hover {background: white;
+		text-decoration : none;
+	opacity : 0.5;}
+	#gadgets h1
+{
+margin-top: 5%;
+font-family: 'Fredoka One', cursive;
+color:black;
+font-size: 50px;
+text-align: center;
+}
+  </style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a href="#mypage" class="navbar-brand">Don't Know</a>
+			</div>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about"><b>About</b></a></li>
+					<li><a href="#wallpapers"><b>Wallpapers</b></a></li>
+					<li><a href="#gadgets"><b>Gadgets</b></a></li>
+					<li><a href="#quotes"><b>Quote</b></a></li>	
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="mypage" class="jumbotron text-center">
+		<h1>Don't Know</h1>
+		<p>Where everything meets at one place</p>
+	</div>
+	<br>
+
+	<!--About-->
+	<div id="section2">
+	<div id="about" class="container text-center">
+		<br><br>
+		<h1>About Us</h1>
+		<p style="font-family: 'Ubuntu', sans-serif;color:black;font-size: 16px;"><br><br>
+			We have built a dynamic website for you that contains all the entertainment at one stop.Don't know is a colloction of all the quotes,wallpapers and also reviewing gadgets that you want to buy.So, technically its all you want but combined into one.It's is still in uploading stage so you might want to be patient as it has not yet contains any of the above features.But the main idea behind this is just as mentioned above.All in one stop!!!
+		</p>
+		<br>
+		<div class="row">
+			
+			<div class="col-sm-4">
+				<p class="text-center" style="color:black;"><strong>Wallpapers</strong></p>
+				<a href="#demo1" data-toggle="collapse">
+					<img src="images/wallpapers.jpeg" class="img-circle person" alt="Wallpapers" width="300" height="300">
+				</a>
+				<div id="demo1" class="collapse" style="color:black;">
+					<p>Great Wallpapers,<br>
+					Full hd Quality</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<p class="text-center" style="color:black;"><strong>Gadgets</strong></p>
+				<a href="#demo2" data-toggle="collapse">
+					<img src="images/gadget.jpeg" class="img-circle person" alt="gadgets" width="300" height="300">
+				</a>
+				<div id="demo2" class="collapse" style="color:black;">
+					<p>Smartphones review,<br>
+					best gadgets.</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<p class="text-center" style="color:black;"><strong>Quotes</strong></p>
+				<a href="#demo" data-toggle="collapse">
+					<img src="images/quote.jpeg" class="img-circle person" alt="Quotes" width="300" height="300">
+				</a>
+				<div id="demo" class="collapse" style="color:black;">
+					<p>Today a reader,<br>
+					tomorrow a leader. <br>
+					-Margaret Fuller</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<br>
+	<!--Wallpapers Section-->
+
+		
+	<div id="wallpapers">
+		<br>	
+</div>
+	<div id="mycarousel" class="carousel slide" data-ride="carousel" >
+	<div class="carousel-inner" role="listbox">
+
+		<div class="item active" >
+			<img src="images/wall1.jpeg" alt="wallpapers" style="width:100%;height:100%;">
+		</div>
+		<div class="item">
+			<img src="images/wall2.jpg" alt="wallpapers" style="width:100%;height:100%;">
+		</div>
+		<div class="item">
+			<img src="images/wall3.jpeg" alt="wallpapers"  style="width:100%;height:100%;">
+		</div>
+	</div>
+
+	<a href="#mycarousel" class="left carousel-control" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a href="#mycarousel" class="right carousel-control" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	 <div class="main-text">
+                    <h1 >
+                        W A L L P A P E R S</h1>
+	</div>
+</div>
+<p class="container text-center" style="font-family: 'Ubuntu', sans-serif;color:black;font-size: 16px;"><br><br>
+			Wallpaper is not only about a picture to save in devices, it says about your fantasy, intresets, mood. so catch your favourite wallpapers.<br><br> <br>
+			<a href="" class="submit">click here</a>
+		</p>
+	<div id="gadgets" >
+		<br>
+                    <h1 >G A D G E T S</h1>
+
+	</div>
+	<br>
+	<div class="container">
+<div class="row">
+ <div style="text-align: center;" class="col-md-4">
+  <h2 >MOBILES</h2>
+ <!-- <p>The .img-thumbnail class creates a thumbnail of the image:</p>  -->          
+  <img src="images/mobiles.jpeg" class="img-thumbnail" alt="mobiles" width="300" height="300"> 
+  </div>
+  <div style="text-align: center;" class="col-md-4">
+   <h2 >GAMEPADS</h2>
+  <!--<p>The .img-thumbnail class creates a thumbnail of the image:</p>-->          
+  <img src="images/gamepads.jpeg" class="img-thumbnail" alt="gamepads" width="300" height="300"> 
+  </div>
+  <div style="text-align: center;" class="col-md-4">
+  <h2 >LAPTOPS</h2>
+  <!--<p>The .img-thumbnail class creates a thumbnail of the image:</p>-->        
+  <img src="images/laptops.jpeg" class="img-thumbnail" alt="cameras" width="300" height="300"> 
+  </div>
+</div>
+<br>
+<div class="row">
+ <div style="text-align: center;" class="col-md-4">
+  <h2 >VR</h2>
+ <!-- <p>The .img-thumbnail class creates a thumbnail of the image:</p>  -->          
+  <img src="images/vrs.jpeg" class="img-thumbnail" alt="mobiles" width="300" height="300"> 
+  </div>
+  <div style="text-align: center;" class="col-md-4">
+   <h2 >SMART WATCHES</h2>
+  <!--<p>The .img-thumbnail class creates a thumbnail of the image:</p>-->          
+  <img src="images/smartwatches.jpeg" class="img-thumbnail" alt="gamepads" width="300" height="300"> 
+  </div>
+  <div style="text-align: center;" class="col-md-4">
+  <h2 >CAMS</h2>
+  <!--<p>The .img-thumbnail class creates a thumbnail of the image:</p>-->        
+  <img src="images/cams.jpeg" class="img-thumbnail" alt="cameras" width="300" height="300"> 
+  </div>
+</div>
+</div>
+<p class="container text-center" style="font-family: 'Ubuntu', sans-serif;color:black;font-size: 16px;"><br><br>
+			Do you have a doubt about the gadget you willing to buy ,then do check up our review. All the latest gadgets will be given review by us.<br><br>
+			<a href="" class="submit">click here</a>
+		</p>
+</body>
+</html>
