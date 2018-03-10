@@ -1,0 +1,19 @@
+$(document).ready(function(){
+	$('.category_item').click(function(){
+		var category = $(this).attr('id');
+		if(category=='all')
+		{
+			$('.picture_item').addClass('hide');
+			setTimeout(function(){
+				$('.picture_item').removeClass('hide');
+			},300);
+		}
+		else
+		{
+			$('.picture_item').addClass('hide');
+			setTimeout(function(){
+				$('.'+category).removeClass('hide');
+			},300);
+		}
+	})
+});
