@@ -1,2 +1,2 @@
-# http://dontknow.github.io/index.html
+# https://nithinnalli.github.io/dontknow
 project for fun
